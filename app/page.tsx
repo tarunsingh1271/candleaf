@@ -1,20 +1,26 @@
-import Image from 'next/image'
-import Navbar from './pages/navigation'
-import About from './pages/about'
+import Nav from './components/nav';
+import Cardbg from './components/hero';
+import Product from './components/product'
+import Testinomials from './components/testinomial'
+import Popular from './components/popular'
+import Footer from './components/footer'
+import './globals.css';
+
+
 
 export default function Home() {
-  return (
-  <>
-  
-  
-  <main>
+  return ( 
     
-  <Navbar />
-  </main>
-  </>
-    
-    
-    
+ <>
+
+<Nav />
+<Cardbg />
+<Product />
+<Testinomials />
+<Popular />
+<Footer />
+
+ </>    
     
   )
 }
