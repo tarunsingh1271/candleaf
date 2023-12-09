@@ -20,7 +20,6 @@ export default function Home() {
  <>
 
  <Nav />
- {/*
 <Cardbg />
 <Product />
 <Testinomials />
@@ -30,9 +29,7 @@ export default function Home() {
 <Auth />
 <Shipping />
 <Payment />
-*/}
 <Payconf />
-
 <Footer />
 
  </>    
